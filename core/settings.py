@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_spectacular',
-    'menu_items',
+    'menu_item',
 ]
 
 MIDDLEWARE = [
@@ -38,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'restaurant_app.urls'
+ROOT_URLCONF = 'core.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'restaurant_app.wsgi.application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 
 # Database

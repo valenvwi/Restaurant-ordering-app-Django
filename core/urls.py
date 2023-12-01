@@ -1,5 +1,5 @@
 """
-URL configuration for restaurant_app project.
+URL configuration for core project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -17,9 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
-
+from menu_item.views import MenuItemListView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/docs/schema/", SpectacularAPIView.as_view(), name="schema"),
     path("api/docs/schema/ui/", SpectacularSwaggerView.as_view()),
+    path('', MenuItemListView.as_view(), name='menu_item_list'),
 ]

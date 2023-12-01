@@ -1,0 +1,172 @@
+[
+  {
+    "model": "menu_item.menuItem",
+    "pk": 1,
+    "fields": {
+      "name": "Edamame",
+      "description": "Steamed soybeans with sea salt",
+      "price": 5,
+      "category": "Appetizers"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 2,
+    "fields": {
+      "name": "Gyoza",
+      "description": "Japanese dumplings with pork and vegetables",
+      "price": 8,
+      "category": "Appetizers"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 3,
+    "fields": {
+      "name": "Agedashi Tofu",
+      "description": "Deep-fried tofu cubes in savory dashi broth",
+      "price": 7,
+      "category": "Appetizers"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 4,
+    "fields": {
+      "name": "Tempura Shrimp",
+      "description": "Crispy fried shrimp in tempura batter",
+      "price": 10,
+      "category": "Appetizers"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 5,
+    "fields": {
+      "name": "Yakitori",
+      "description": "Grilled chicken skewers with teriyaki glaze",
+      "price": 9,
+      "category": "Appetizers"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 6,
+    "fields": {
+      "name": "Sushi Platter",
+      "description": "Assorted sushi rolls with fresh fish and rice",
+      "price": 18,
+      "category": "Mains"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 7,
+    "fields": {
+      "name": "Chicken Ramen",
+      "description": "Japanese noodle soup with broth, chicken, and vegetables",
+      "price": 12,
+      "category": "Mains"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 8,
+    "fields": {
+      "name": "Teriyaki Chicken Don",
+      "description": "Grilled chicken with teriyaki sauce over rice",
+      "price": 15,
+      "category": "Mains"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 9,
+    "fields": {
+      "name": "Chirashi Bowl",
+      "description": "Assorted sashimi over a bed of sushi rice",
+      "price": 20,
+      "category": "Mains"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 10,
+    "fields": {
+      "name": "Okonomiyaki",
+      "description": "Japanese savory pancake with various ingredients",
+      "price": 14,
+      "category": "Mains"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 11,
+    "fields": {
+      "name": "Matcha Cheesecake",
+      "description": "Cheesecake flavored with Japanese matcha green tea",
+      "price": 10,
+      "category": "Desserts"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 12,
+    "fields": {
+      "name": "Mochi Ice Cream",
+      "description": "Rice cake filled with ice cream in various flavors",
+      "price": 8,
+      "category": "Desserts"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 13,
+    "fields": {
+      "name": "Dorayaki",
+      "description": "Sweet pancake sandwiches with red bean paste",
+      "price": 6,
+      "category": "Desserts"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 14,
+    "fields": {
+      "name": "Green Tea Tiramisu",
+      "description": "Japanese twist on classic tiramisu with green tea flavor",
+      "price": 9,
+      "category": "Desserts"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 15,
+    "fields": {
+      "name": "Green Tea",
+      "description": "Traditional Japanese green tea",
+      "price": 3,
+      "category": "Drinks"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 16,
+    "fields": {
+      "name": "Iced Matcha Latte",
+      "description": "Refreshing iced matcha latte",
+      "price": 5,
+      "category": "Drinks"
+    }
+  },
+  {
+    "model": "menu_item.menuItem",
+    "pk": 17,
+    "fields": {
+      "name": "Japanese Plum Soda",
+      "description": "Fizzing soda with the flavor of Japanese plum",
+      "price": 4,
+      "category": "Drinks"
+    }
+  }
+]

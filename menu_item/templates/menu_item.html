@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    Content
+    {% for menu_item in menu_item_list %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">{{ menu_item.name }}</h5>
+                <p class="card-text">{{ menu_item.description }}</p>
+                <p class="card-text">{{ menu_item.price }}</p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
