@@ -1,0 +1,18 @@
+{% block content %}
+<div class="col-md-4 col-lg-3">
+  <div class="card my-3">
+    <a href="{% url 'menu_item_detail' menu_item.pk %}">
+      <img class="card-img-top square-img" src="{{ menu_item.image.url}}" />
+    </a>
+    <div class="card-body d-flex justify-content-between">
+      <div>
+        <h5 class="two-line-ellipsis">{{ menu_item.name }}</h5>
+        <p>Price: {{ menu_item.price }} CHF</p>
+      </div>
+      <div>
+        <button class="btn btn-primary">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% block content %}
+<div class="row card m-1">
+  <div class="d-flex flex-column-row my-3">
+    <div class="col-4 d-flex justify-content-center align-items-center">
+      <a href="{% url 'menu_item_detail' menu_item.pk %}">
+    <img class="square-img" width="100%" src="{{ menu_item.image.url}}" />
+    </a>
+  </div>
+    <div class="d-flex justify-content-between align-items-center col-8">
+
+      <div class="ms-3 me-1 d-block d-sm-none">
+        <h6 class=>{{ menu_item.name }}</h6>
+        <p>Price: {{ menu_item.price }} CHF</p>
+      </div>
+
+      <div class="mx-5 d-none d-sm-block">
+        <h6 class=>{{ menu_item.name }}</h6>
+        <h6 class="fw-normal">Price: {{ menu_item.price }} CHF</h6>
+      </div>
+
+      <div>
+        <button
+          class="btn icon"
+          >
+          Add to cart
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}
