@@ -1,20 +1,17 @@
-{% extends 'index.html' %}
-
-{% block content %}
-    <div class="container mt-5">
-      <div class="d-none d-md-block">
-        <div class="row">
-          {% for menu_item in menu_item_list %}
-              {% include '_menu_card.html' with menu_item=menu_item %}
-          {% endfor %}
-      </div>
+{% extends 'index.html' %} {% block content %}
+<div class="container mt-5">
+  <div class="d-none d-md-block">
+    <div class="row">
+      {% for menu_item in menu_item_list %}
+          {% include 'menu_card/_menu_card.html' with menu_item=menu_item %}
+      {% endfor %}
     </div>
+  </div>
 
-      <div class="d-block d-md-none">
-        {% for menu_item in menu_item_list %}
-            {% include '_menu_card_mobile.html' with menu_item=menu_item %}
-        {% endfor %}
-      </div>
-
-    </div>
+  <div class="d-block d-md-none">
+    {% for menu_item in menu_item_list %}
+        {% include 'menu_card/_menu_card_mobile.html' with menu_item=menu_item %}
+    {% endfor %}
+  </div>
+</div>
 {% endblock %}
