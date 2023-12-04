@@ -33,17 +33,24 @@
     ></script>
 
     <!-- Bootstrap Icons -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
+    /> -->
 
     <!-- HTMX -->
     <script src="https://unpkg.com/htmx.org@1.6.0"></script>
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'style.css' %}" />
+
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+
   </head>
   <body>
+    {% include 'UI/header.html' %}
+
     <div class="container mt-4">{% block content %} {% endblock %}</div>
   </body>
 </html>
