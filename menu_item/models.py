@@ -8,4 +8,4 @@ class MenuItem(models.Model):
     category = models.CharField(max_length=30, default='')
 
     def __str__(self):
-        return self.name
+        return f"{self.name} - {self.pk}"

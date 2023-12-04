@@ -45,12 +45,12 @@
     <link rel="stylesheet" href="{% static 'style.css' %}" />
 
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-
-
   </head>
   <body>
     {% include 'UI/header.html' %}
 
     <div class="container mt-4">{% block content %} {% endblock %}</div>
   </body>
+
+  <script src="{% static 'main.js' %}"></script>
 </html>
