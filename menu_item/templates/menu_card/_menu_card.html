@@ -10,7 +10,7 @@
         <p>Price: {{ menu_item.price }} CHF</p>
       </div>
       <div>
-        <button class="btn btn-primary" onclick="handleAddToCart(' {{ menu_item.id }} , {{ menu_item.name }}')">
+        <button class="btn btn-primary" onclick="handleAddToCart('{{ menu_item.id }}', '{{ menu_item.image.url }}','{{ menu_item.price }}','{{ menu_item.name }}', 1)">
           <i class="lni lni-plus"></i>
         </button>
       </div>

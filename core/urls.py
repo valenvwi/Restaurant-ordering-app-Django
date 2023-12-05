@@ -20,6 +20,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from menu_item.views import MenuItemListView, MenuItemDetailView
 from django.conf import settings
 from django.conf.urls.static import static
+from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,6 +28,7 @@ urlpatterns = [
     path("api/docs/schema/ui/", SpectacularSwaggerView.as_view()),
     path('', MenuItemListView.as_view(), name='menu_item_list'),
     path('menu/<int:pk>/', MenuItemDetailView.as_view(), name='menu_item_detail'),
+    path('cart/', TemplateView.as_view(template_name='cart.html'), name='cart'),
 ]
 
 if settings.DEBUG:
